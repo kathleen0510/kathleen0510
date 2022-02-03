@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+ } 
+
+body {
+    font-family: 'Karla';
+    background-color: hsl(204, 43%, 93%)
+}
+
+ .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+ }
+
+ .introducao {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+    padding-bottom: 40px;
+    background-color: white;
+    width: 720px;
+ }
+
+ h1 {
+     color: hsl(179, 62%, 43%);
+     font-size: 26px;
+     padding: 30px 40px 0px 40px;
+ }
+
+ h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+ }
+
+ p {
+     color: hsl(218, 22%, 67%);
+     padding-bottom: 5px;
+     font-size: 16px;
+     padding: 0px 40px 0px 40px;
+ }
+
+nav {
+    display: flex;
+    color: white;
+}
+
+nav h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+nav p {
+    color: white;
+}
+
+.card {
+    display: flex;
+}
+
+.cardInscricao {
+    background-color:  #2BB3B1;
+    padding: 40px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.cardInscricao p {
+    padding-bottom: 40px;
+    padding-left: 0px;
+}
+
+.preco {
+    display: flex
+}
+
+.preco p {
+    padding-left: 10px;
+    padding-top: 10px;
+    color: hsl(204, 43%, 93%);
+}
+
+.cardInscricao h4 {
+    font-size: 32px;
+}
+
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cardPorque {
+    background-color:  #4ABEBD;
+    padding: 40px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.card ul {
+    list-style-type: none;
+}
+
+.card ul li {
+    padding-bottom: 5px;
+    font-size: 16px;
+    color: hsl(204, 43%, 93%);
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
